@@ -1,0 +1,104 @@
+.titulo {
+    color: aliceblue;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-left: 10px;
+    font-size: 1.25rem;
+    text-decoration: none;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 1600px) {
+    .fondo {
+        background-image: url('../images/fondo2.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* margin: 0; */
+        height: 700px;
+        width: 1000px;
+    }
+    .abs-center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+    }
+    .desplazado {
+        position: relative;
+        top: 149px;
+    }
+    .desplazado-caracteristicas {
+        color: aliceblue;
+        font-weight: bold;
+        position: relative;
+        top: 209px;
+        left: 60px;
+    }
+    #txt_img {
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 1540px) {
+    .fondo {
+        background-image: url('../images/fondo2.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* margin: 0; */
+        height: 700px;
+        width: 1000px;
+    }
+    .abs-center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+    }
+    .desplazado {
+        position: relative;
+        top: 149px;
+    }
+    .desplazado-caracteristicas {
+        color: aliceblue;
+        font-weight: bold;
+        position: relative;
+        top: 209px;
+        left: 60px;
+    }
+    #txt_img {
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .fondo {
+        background-image: url('../images/fondo2.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* margin: 0; */
+        height: 200px;
+        width: 300px;
+    }
+    .abs-center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+    }
+    .desplazado {
+        position: relative;
+        top: 10px;
+        right: 70px;
+    }
+    .desplazado-caracteristicas {
+        color: black;
+        font-weight: bold;
+        position: relative;
+        top: 35px;
+        left: 0px;
+    }
+    #txt_img {
+        height: 55px;
+    }
+}
